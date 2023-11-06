@@ -93,22 +93,22 @@ Step14. click on debug and simulate using simulation as shown below
 
  
 ## STM 32 CUBE PROGRAM :
+```
+Name: karthikeyan R
+Reg.NO:212222240046
+```
+```
 HAL_TIM_Base_Start(&htim2);
 HAL_TIM_PWM_Init(&htim2);
 HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
-
+```
 ## Output screen shots of proteus  :
-
-
-
- 
- ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+![image](https://github.com/22002525karthikeyan/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118708040/860c9fa4-662b-4374-87ea-c50b2aae3b01)
+## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
 ![Screenshot 2023-10-11 142908](https://github.com/22002525karthikeyan/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118708040/b6825b0b-e0fd-4939-bc4f-fb5ebcb8322a)
-
-
-
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 # FOR PULSE AT 500
+![image](https://github.com/22002525karthikeyan/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118708040/9200075d-76ea-4766-955e-138ac7b75657)
 ```
 Total Time period =4.1ms
 TON = 2ms
@@ -119,6 +119,7 @@ FREQUENCY = 1/(TOTAL TIME)
 = 250Hz
 ```
 ## FOR PULSE AT 700
+![image](https://github.com/22002525karthikeyan/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118708040/6ef0157e-1aea-4960-98fb-dc77f69b47c9)
 ```
 Total Time period = 3.11ms
 TON =  2.17ms
@@ -129,6 +130,7 @@ FREQUENCY = 1/(TOTAL TIME)
 = 322.58Hz
 ```
 ## FOR PULSE AT 900
+![image](https://github.com/22002525karthikeyan/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118708040/3c895887-555f-48f9-8132-6c91e0a3ade5)
 ```
 Total Time period = 3.21ms
 TON = 2.88ms
